@@ -2,8 +2,17 @@
     box-sizing: border-box;
 }
 
+table, td, tr {
+    background-color: white;
+}
+
+td {
+    border: none;
+}
+
 table {
     padding-left: 30px;
+    border-collapse: collapse;
 }
 
 .top {
