@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+table {
+    /*width: 300px;
+    height: 108px;*/
+    padding-left: 30px;
+}
+
+table, td, tr {
+    border: 0px
+}
+
+.top {
+    padding-top: 30px;
+}
+
+.zoom1 {
+    transition: transform .2s;
+    /*width: 33%;
+    height: 50%;*/
+    margin: 0 auto;
+}
+
+.zoom2 {
+    transition: transform .2s;
+    /*width: 50%;
+    height: 50%;*/
+    margin: 0 auto;
+}
+  
+.zoom1:hover, .zoom2:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+} 
