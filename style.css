@@ -1,18 +1,21 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
 }
 
-table, td, tr {
-    background-color: white;
-}
-
-td {
-    border: none;
-}
-
-table {
+body {
     padding-left: 30px;
-    border-collapse: collapse;
+    display: block;
+}
+
+div {
+    line-height: 0px;
+}
+
+.main {
+    background-color: white;
 }
 
 .top {
