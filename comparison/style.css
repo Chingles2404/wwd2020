@@ -13,6 +13,10 @@ div {
     line-height: 0px;
 }
 
+.column1, .column2 {
+    float: left;
+}
+
 .main {
     background-color: white;
 }
